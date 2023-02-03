@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/RWADP1/DD_d98def6f-3d0d-49a6-8796-ccf97991a6a6_Invoicenumber.json",
+    "uuid": "d98def6f-3d0d-49a6-8796-ccf97991a6a6",
+    "namespace": "RWADP1",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "Invoicenumber": {
+            "$id": "#Invoicenumber",
+            "title": "Invoice number",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

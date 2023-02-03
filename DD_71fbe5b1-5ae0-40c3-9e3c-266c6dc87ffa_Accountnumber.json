@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/RWADP1/DD_71fbe5b1-5ae0-40c3-9e3c-266c6dc87ffa_Accountnumber.json",
+    "uuid": "71fbe5b1-5ae0-40c3-9e3c-266c6dc87ffa",
+    "namespace": "RWADP1",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "Accountnumber": {
+            "$id": "#Accountnumber",
+            "title": "Account number",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}
